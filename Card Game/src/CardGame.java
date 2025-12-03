@@ -7,7 +7,7 @@ public class CardGame
 			{
 				Deck.fillDeck();
 				Deck.shuffle();
-				System.out.println("made change");
+				System.out.println("made change.");
 				System.out.println(Deck.deck.get(0).getRank());
 				ArrayList<Card> player1 = new ArrayList<>();
 				ArrayList<Card> player2 = new ArrayList<>();
